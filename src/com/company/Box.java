@@ -2,14 +2,21 @@ package com.company;
 
 
 
+
 public class Box {
-    int w;
-    int h;
+    String abc;
+    int bgg;
+    String weight;
+    String cost;
+    Box(Box ob){
+        abc = ob.abc;
+        bgg = ob.bgg;
+    }
+    Box (String a, int b){
+abc = a;
+        bgg = b;
+
+    }
 
 
-    public static void main(String[] args)
-    {
-HeavyBox heavyBox = new HeavyBox(1, 2);
-        heavyBox.show();
-   }
-}
+    }
